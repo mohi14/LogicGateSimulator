@@ -85,12 +85,12 @@ clean: CMakeFiles/LogicGateSimulator.dir/clean
 CMakeFiles/LogicGateSimulator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogicGateSimulator.dir/build.make CMakeFiles/LogicGateSimulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogicGateSimulator.dir/build.make CMakeFiles/LogicGateSimulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target LogicGateSimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles --progress-num=1,2 "Built target LogicGateSimulator"
 .PHONY : CMakeFiles/LogicGateSimulator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LogicGateSimulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LogicGateSimulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles 0
 .PHONY : CMakeFiles/LogicGateSimulator.dir/rule
@@ -102,7 +102,7 @@ LogicGateSimulator: CMakeFiles/LogicGateSimulator.dir/rule
 # codegen rule for target.
 CMakeFiles/LogicGateSimulator.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogicGateSimulator.dir/build.make CMakeFiles/LogicGateSimulator.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target LogicGateSimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles --progress-num=1,2 "Finished codegen for target LogicGateSimulator"
 .PHONY : CMakeFiles/LogicGateSimulator.dir/codegen
 
 # clean rule for target.

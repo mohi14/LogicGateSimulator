@@ -222,9 +222,6 @@ LogicGateSimulator_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 LogicGateSimulator_SOURCE_DIR:STATIC=/Users/mohi/Developer/Projects/C++/LogicGateSimulator
 
-//The directory containing a CMake configuration file for SFML-graphics.
-SFML-graphics_DIR:PATH=SFML-graphics_DIR-NOTFOUND
-
 //The directory containing a CMake configuration file for SFML.
 SFML_DIR:PATH=/opt/homebrew/lib/cmake/SFML
 

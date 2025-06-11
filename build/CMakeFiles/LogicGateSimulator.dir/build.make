@@ -72,94 +72,10 @@ include CMakeFiles/LogicGateSimulator.dir/flags.make
 CMakeFiles/LogicGateSimulator.dir/codegen:
 .PHONY : CMakeFiles/LogicGateSimulator.dir/codegen
 
-CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.o: CMakeFiles/LogicGateSimulator.dir/flags.make
-CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.o: /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Gate.cpp
-CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.o: CMakeFiles/LogicGateSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.o -MF CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.o.d -o CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.o -c /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Gate.cpp
-
-CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Gate.cpp > CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.i
-
-CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Gate.cpp -o CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.s
-
-CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.o: CMakeFiles/LogicGateSimulator.dir/flags.make
-CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.o: /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/LogicSimulator.cpp
-CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.o: CMakeFiles/LogicGateSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.o -MF CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.o.d -o CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.o -c /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/LogicSimulator.cpp
-
-CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/LogicSimulator.cpp > CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.i
-
-CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/LogicSimulator.cpp -o CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.s
-
-CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.o: CMakeFiles/LogicGateSimulator.dir/flags.make
-CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.o: /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Pin.cpp
-CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.o: CMakeFiles/LogicGateSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.o -MF CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.o.d -o CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.o -c /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Pin.cpp
-
-CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Pin.cpp > CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.i
-
-CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Pin.cpp -o CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.s
-
-CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.o: CMakeFiles/LogicGateSimulator.dir/flags.make
-CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.o: /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/SoundManager.cpp
-CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.o: CMakeFiles/LogicGateSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.o -MF CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.o.d -o CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.o -c /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/SoundManager.cpp
-
-CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/SoundManager.cpp > CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.i
-
-CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/SoundManager.cpp -o CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.s
-
-CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.o: CMakeFiles/LogicGateSimulator.dir/flags.make
-CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.o: /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Toolbar.cpp
-CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.o: CMakeFiles/LogicGateSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.o -MF CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.o.d -o CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.o -c /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Toolbar.cpp
-
-CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Toolbar.cpp > CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.i
-
-CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Toolbar.cpp -o CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.s
-
-CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.o: CMakeFiles/LogicGateSimulator.dir/flags.make
-CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.o: /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Wire.cpp
-CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.o: CMakeFiles/LogicGateSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.o -MF CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.o.d -o CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.o -c /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Wire.cpp
-
-CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Wire.cpp > CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.i
-
-CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/Wire.cpp -o CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.s
-
 CMakeFiles/LogicGateSimulator.dir/src/main.cpp.o: CMakeFiles/LogicGateSimulator.dir/flags.make
 CMakeFiles/LogicGateSimulator.dir/src/main.cpp.o: /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/main.cpp
 CMakeFiles/LogicGateSimulator.dir/src/main.cpp.o: CMakeFiles/LogicGateSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LogicGateSimulator.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LogicGateSimulator.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LogicGateSimulator.dir/src/main.cpp.o -MF CMakeFiles/LogicGateSimulator.dir/src/main.cpp.o.d -o CMakeFiles/LogicGateSimulator.dir/src/main.cpp.o -c /Users/mohi/Developer/Projects/C++/LogicGateSimulator/src/main.cpp
 
 CMakeFiles/LogicGateSimulator.dir/src/main.cpp.i: cmake_force
@@ -172,23 +88,11 @@ CMakeFiles/LogicGateSimulator.dir/src/main.cpp.s: cmake_force
 
 # Object files for target LogicGateSimulator
 LogicGateSimulator_OBJECTS = \
-"CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.o" \
-"CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.o" \
-"CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.o" \
-"CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.o" \
-"CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.o" \
-"CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.o" \
 "CMakeFiles/LogicGateSimulator.dir/src/main.cpp.o"
 
 # External object files for target LogicGateSimulator
 LogicGateSimulator_EXTERNAL_OBJECTS =
 
-LogicGateSimulator: CMakeFiles/LogicGateSimulator.dir/src/Gate.cpp.o
-LogicGateSimulator: CMakeFiles/LogicGateSimulator.dir/src/LogicSimulator.cpp.o
-LogicGateSimulator: CMakeFiles/LogicGateSimulator.dir/src/Pin.cpp.o
-LogicGateSimulator: CMakeFiles/LogicGateSimulator.dir/src/SoundManager.cpp.o
-LogicGateSimulator: CMakeFiles/LogicGateSimulator.dir/src/Toolbar.cpp.o
-LogicGateSimulator: CMakeFiles/LogicGateSimulator.dir/src/Wire.cpp.o
 LogicGateSimulator: CMakeFiles/LogicGateSimulator.dir/src/main.cpp.o
 LogicGateSimulator: CMakeFiles/LogicGateSimulator.dir/build.make
 LogicGateSimulator: /opt/homebrew/lib/libsfml-graphics.3.0.1.dylib
@@ -197,7 +101,7 @@ LogicGateSimulator: /opt/homebrew/lib/libsfml-network.3.0.1.dylib
 LogicGateSimulator: /opt/homebrew/lib/libsfml-window.3.0.1.dylib
 LogicGateSimulator: /opt/homebrew/lib/libsfml-system.3.0.1.dylib
 LogicGateSimulator: CMakeFiles/LogicGateSimulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable LogicGateSimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LogicGateSimulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LogicGateSimulator.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/bin/cmake -E copy_directory /Users/mohi/Developer/Projects/C++/LogicGateSimulator/assets /Users/mohi/Developer/Projects/C++/LogicGateSimulator/build/assets
 
