@@ -4,7 +4,7 @@
 int main()
 {
     // Create window
-    auto window = sf::RenderWindow(sf::VideoMode({1920u, 1080u}), "CMake SFML Project");
+    auto window = sf::RenderWindow(sf::VideoMode({1920u, 1080u}), "Digital Logic Simulator");
     window.setFramerateLimit(144);
 
     // Load a font (ensure "arial.ttf" or another font is in your project folder)
@@ -15,7 +15,7 @@ int main()
 
     // Create text
     sf::Text titleText(font,"Welcome to the Digital Logic Simulator by Mohiuddin",  48);
-    titleText.setFillColor(sf::Color::White);
+    titleText.setFillColor(sf::Color::Red);
     titleText.setPosition(sf::Vector2f(100.f, 100.f)); // x, y
 
     // Main loop
