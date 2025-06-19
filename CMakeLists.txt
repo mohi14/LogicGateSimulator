@@ -11,7 +11,7 @@ find_package(SFML 3 REQUIRED COMPONENTS System Window Graphics Audio Network)
 include_directories(src)
 
 # Source files
-file(GLOB SOURCES "src/*.cpp" "src/*.h")
+file(GLOB_RECURSE SOURCES "src/*.cpp" "src/*.h")
 
 
 # Main executable

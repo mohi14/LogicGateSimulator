@@ -3,7 +3,7 @@
 #include <cmath>
 
 Component::Component(ComponentType type, Vector2f position) 
-    : m_type(type), m_position(position), m_inputCount(2), m_outputCount(1) {
+    : m_type(type), m_position(position), m_inputCount(2), m_outputCount(1), m_label() {
     
     m_shape.setSize(sf::Vector2f(Constants::COMPONENT_SIZE, Constants::COMPONENT_SIZE));
     m_shape.setFillColor(Constants::COMPONENT_COLOR);
