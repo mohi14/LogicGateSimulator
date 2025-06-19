@@ -4,7 +4,7 @@
 int main() {
     try {
         Application app;
-        app.test();
+        app.run();
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
         return -1;

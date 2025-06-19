@@ -11,11 +11,11 @@ find_package(SFML 3 REQUIRED COMPONENTS System Window Graphics Audio Network)
 include_directories(src)
 
 # Source files
-file(GLOB_RECURSE SOURCES "src/*.cpp" "src/*.h")
+file(GLOB_RECURSE SOURCES "src/*.cpp")
 
 
 # Main executable
-add_executable(LogicGateSimulator ${SOURCES})
+add_executable(LogicGateSimulator ${SOURCES} )
 
 # Link SFML
 target_link_libraries(LogicGateSimulator PRIVATE SFML::System SFML::Window SFML::Graphics SFML::Audio SFML::Network )

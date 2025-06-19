@@ -54,5 +54,4 @@ protected:
 
     sf::RectangleShape m_shape;
     sf::Text m_label;
-    sf::Font m_font;
 };

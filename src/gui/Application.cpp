@@ -32,7 +32,32 @@ void Application::run() {
 }
 
 void Application::test(){
-    std::cout<<"Hello"<<std::endl;
+   sf::Font font;
+    if (!font.openFromFile("assets/fonts/arial.ttf")) {
+        return; // Error: font not found
+    }
+
+    // Create text
+    sf::Text titleText(font,"Welcome to the Digital Logic Simulator by Mohiuddin",  48);
+    titleText.setFillColor(sf::Color::White);
+    titleText.setPosition(sf::Vector2f(100.f, 100.f)); // x, y
+
+    // Main loop
+    while (m_window.isOpen())
+    {
+        // Handle events
+        while (const std::optional<sf::Event> event = m_window.pollEvent())
+        {
+            if (event->is<sf::Event::Closed>()) {
+                m_window.close();
+            }
+        }
+
+        // Render
+        m_window.clear(sf::Color::Black);
+        m_window.draw(titleText); // Draw the text
+        m_window.display();
+    }
 }
 
 void Application::handleEvents() {
