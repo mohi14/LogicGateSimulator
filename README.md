@@ -1,4 +1,4 @@
-# Digital Logic Simulator
+# Logic Gate Simulator
 
 A comprehensive digital logic circuit simulator built with C++ and SFML, featuring an intuitive graphical interface for designing and testing digital circuits.
 
@@ -13,7 +13,7 @@ A comprehensive digital logic circuit simulator built with C++ and SFML, featuri
 ## Requirements
 
 - C++17 or later
-- SFML 2.5 or later
+- SFML 3 or later
 - CMake 3.16 or later
 
 ## Building
@@ -33,7 +33,7 @@ A comprehensive digital logic circuit simulator built with C++ and SFML, featuri
 2. Clone and build:
    ```bash
    git clone <repository-url>
-   cd DigitalLogicSimulator
+   cd LogicGateSimulator
    mkdir build && cd build
    cmake ..
    make
@@ -41,7 +41,7 @@ A comprehensive digital logic circuit simulator built with C++ and SFML, featuri
 
 3. Run:
    ```bash
-   ./DigitalLogicSimulator
+   ./LogicGateSimulator
    ```
 
 ## Usage
